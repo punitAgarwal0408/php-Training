@@ -26,7 +26,7 @@ $discounts = [
 ];
 
 $policyData = [
-    'vehicle_number' => 'KA01AB1234'
+    'vehicle_number' => 'RJ14CB3234'
 ];
 
 $policy = new VehiclePolicy(

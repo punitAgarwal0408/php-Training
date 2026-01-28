@@ -28,10 +28,7 @@ abstract class AbstractPolicy
         if (!$this->status->canCancel()) {
             throw new \RuntimeException('Policy cannot be cancelled');
         }
-
         $this->status = PolicyStatus::cancelled();
-
-        // simple pro-rata refund: 50%
         return $this->premium->multiply(0.5);
     }
 
