@@ -1,0 +1,10 @@
+{
+  "name": "user/insurance-system",
+  "description": "Insurance system demo",
+  "autoload": {
+    "psr-4": {
+      "Insurance\\": "src/Insurance/"
+    }
+  },
+  "require": {}
+}
