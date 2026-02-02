@@ -1,0 +1,99 @@
+{
+  "info": {
+    "_postman_id": "c1e2b3a4-5678-1234-9abc-def012345678",
+    "name": "CMS Comments API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "List Comments",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/cms/pages/1/comments",
+          "host": ["{{base_url}}"],
+          "path": ["api", "cms", "pages", "1", "comments"]
+        }
+      }
+    },
+    {
+      "name": "Add Comment",
+      "request": {
+        "method": "POST",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"content\": \"This is a comment\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/cms/pages/1/comments",
+          "host": ["{{base_url}}"],
+          "path": ["api", "cms", "pages", "1", "comments"]
+        }
+      }
+    },
+    {
+      "name": "Update Comment",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"content\": \"Updated comment\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/cms/comments/1",
+          "host": ["{{base_url}}"],
+          "path": ["api", "cms", "comments", "1"]
+        }
+      }
+    },
+    {
+      "name": "Delete Comment",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/cms/comments/1",
+          "host": ["{{base_url}}"],
+          "path": ["api", "cms", "comments", "1"]
+        }
+      }
+    },
+    {
+      "name": "Approve Comment (Admin)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/cms/comments/1/approve",
+          "host": ["{{base_url}}"],
+          "path": ["api", "cms", "comments", "1", "approve"]
+        }
+      }
+    },
+    {
+      "name": "Reject Comment (Admin)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/cms/comments/1/reject",
+          "host": ["{{base_url}}"],
+          "path": ["api", "cms", "comments", "1", "reject"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost"
+    }
+  ]
+}
