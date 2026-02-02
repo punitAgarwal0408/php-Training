@@ -1,0 +1,868 @@
+2026-02-01 19:09:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(120): Cake\Http\Runner->__invoke()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#17 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#18 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+
+
+2026-02-01 19:09:08 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php line=856 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-01 19:09:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php:856) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-01 19:09:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php:856) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-01 19:09:08 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php:856) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(120): Cake\Http\Runner->__invoke()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#17 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#18 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+
+
+2026-02-02 05:09:39 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php line=856 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php:856) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php:856) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Debugger.php:856) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:40 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:09:40 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2026-02-02 05:16:16 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#10 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(44): Cake\Http\Server->run()
+#11 {main}
+Request URL: /
+
+
+2026-02-02 05:17:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(120): Cake\Http\Runner->__invoke()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#17 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#18 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(44): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+
+
+2026-02-02 05:17:09 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:27 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(44): Cake\Http\Server->run()
+#13 {main}
+Request URL: /
+
+
+2026-02-02 05:17:27 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 44
+
+
+
+2026-02-02 05:17:50 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(47): Cake\Http\Server->run()
+#13 {main}
+Request URL: /
+
+
+2026-02-02 05:17:50 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 47
+
+
+
+2026-02-02 05:17:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 47
+
+
+
+2026-02-02 05:17:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 47
+
+
+
+2026-02-02 05:17:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 47
+
+
+
+2026-02-02 05:19:16 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#13 {main}
+Request URL: /
+
+
+2026-02-02 05:19:17 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:19:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:19:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:19:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:19:26 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#13 {main}
+Request URL: /
+
+
+2026-02-02 05:19:26 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:19:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:19:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:19:26 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:01 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#13 {main}
+Request URL: /training-sessions
+
+
+2026-02-02 05:20:01 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:12 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#13 {main}
+Request URL: /training-sessions
+
+
+2026-02-02 05:20:12 Warning: Warning (512): Unable to emit headers. Headers sent in file=D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php line=40 in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 54]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 151]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 151
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:20:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:40) in [D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 184]
+Request URL: /training-sessions
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure:D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\config\bootstrap.php:35}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 184
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 61
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 52
+
+
+
+2026-02-02 05:24:05 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#9 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#10 {main}
+Request URL: /training-sessions
+
+
+2026-02-02 05:24:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#9 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#10 {main}
+Request URL: /training-sessions
+
+
+2026-02-02 05:24:58 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#13 {main}
+Request URL: /training-sessions
+
+
+2026-02-02 05:25:07 Error: [Cake\View\Exception\MissingTemplateException] Template file "Error\error500.ctp" is missing. (D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php:1583)
+Exception Attributes: array (
+  'file' => 'Error\\error500.ctp',
+)
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\View\View.php(875): Cake\View\View->_getViewFileName()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(410): Cake\View\View->render()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(375): Cake\Error\ExceptionRenderer->_outputMessageSafe()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(378): Cake\Error\ExceptionRenderer->_outputMessage()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\ExceptionRenderer.php(243): Cake\Error\ExceptionRenderer->_outputMessage()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(116): Cake\Error\ExceptionRenderer->render()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Error\Middleware\ErrorHandlerMiddleware->handleException()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run()
+#12 D:\Insuarance system php day 1\Day_3_assignment\webroot\index.php(52): Cake\Http\Server->run()
+#13 {main}
+Request URL: /training-sessions
+
+
