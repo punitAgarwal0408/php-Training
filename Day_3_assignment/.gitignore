@@ -1,0 +1,16 @@
+# Runtime artifacts
+/tmp/
+/tmp/*
+/tmp/training_sessions.sqlite
+/tmp/logs/
+
+# Composer vendor
+/vendor/
+
+# PHPUnit result cache
+.phpunit.result.cache
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store

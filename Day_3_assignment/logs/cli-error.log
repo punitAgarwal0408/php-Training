@@ -1,0 +1,438 @@
+2026-02-01 18:14:00 Error: [Error] Class "IntlDateFormatter" not found in D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\I18n\Time.php on line 46
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Database\Type\DateTimeType.php(377): [constant expression]()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Database\Type\DateTimeType.php(120): Cake\Database\Type\DateTimeType->_setClassName()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Database\Type.php(109): Cake\Database\Type\DateTimeType->__construct()
+#3 D:\Insuarance system php day 1\Day_3_assignment\config\bootstrap.php(186): Cake\Database\Type::build()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\BaseApplication.php(151): require_once('...')
+#5 D:\Insuarance system php day 1\Day_3_assignment\src\Application.php(38): Cake\Http\BaseApplication->bootstrap()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(189): App\Application->bootstrap()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(132): Cake\Console\CommandRunner->bootstrap()
+#8 D:\Insuarance system php day 1\Day_3_assignment\bin\cake.php(12): Cake\Console\CommandRunner->run()
+#9 {main}
+
+
+2026-02-01 18:51:09 Error: [Cake\Core\Exception\MissingPluginException] Plugin DebugKit\Plugin could not be found. in D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\PluginCollection.php on line 137
+Exception Attributes: array (
+  'plugin' => 'DebugKit\\Plugin',
+)
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\BaseApplication.php(139): Cake\Core\PluginCollection->findPath()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Http\BaseApplication.php(96): Cake\Http\BaseApplication->makePlugin()
+#2 D:\Insuarance system php day 1\Day_3_assignment\src\Application.php(49): Cake\Http\BaseApplication->addPlugin()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(189): App\Application->bootstrap()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(132): Cake\Console\CommandRunner->bootstrap()
+#5 D:\Insuarance system php day 1\Day_3_assignment\bin\cake.php(12): Cake\Console\CommandRunner->run()
+#6 {main}
+
+
+2026-02-01 18:51:58 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Database\Connection.php on line 178
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Database\Connection.php(119): Cake\Database\Connection->setDriver()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(88): Cake\Database\Connection->__construct()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(96): Cake\Datasource\ConnectionRegistry->_create()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(204): Cake\Core\ObjectRegistry->load()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(68): Cake\Datasource\ConnectionManager::get()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(63): Migrations\Command\Migrate->bootstrap()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\Migrate.php(66): Migrations\Command\Migrate->parentExecute()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Migrate->execute()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(149): Symfony\Component\Console\Application->doRun()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(169): Cake\Console\Shell->runCommand()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#17 D:\Insuarance system php day 1\Day_3_assignment\bin\cake.php(12): Cake\Console\CommandRunner->run()
+#18 {main}
+
+
+2026-02-01 18:56:30 Error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 82
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(116): Phinx\Db\Adapter\PdoAdapter->createPdoConnection()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(148): Phinx\Db\Adapter\MysqlAdapter->connect()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(496): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(63): Migrations\Command\Migrate->bootstrap()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\Migrate.php(66): Migrations\Command\Migrate->parentExecute()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Migrate->execute()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(149): Symfony\Component\Console\Application->doRun()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(169): Cake\Console\Shell->runCommand()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#17 D:\Insuarance system php day 1\Day_3_assignment\bin\cake.php(12): Cake\Console\CommandRunner->run()
+#18 {main}
+
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 79
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(79): PDO->__construct()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(116): Phinx\Db\Adapter\PdoAdapter->createPdoConnection()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(148): Phinx\Db\Adapter\MysqlAdapter->connect()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(496): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(63): Migrations\Command\Migrate->bootstrap()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\Migrate.php(66): Migrations\Command\Migrate->parentExecute()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Migrate->execute()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(149): Symfony\Component\Console\Application->doRun()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(169): Cake\Console\Shell->runCommand()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#17 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#18 D:\Insuarance system php day 1\Day_3_assignment\bin\cake.php(12): Cake\Console\CommandRunner->run()
+#19 {main}
+
+
+2026-02-01 18:58:59 Error: [InvalidArgumentException] There was a problem connecting to the database: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 82
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(116): Phinx\Db\Adapter\PdoAdapter->createPdoConnection()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(148): Phinx\Db\Adapter\MysqlAdapter->connect()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(496): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(63): Migrations\Command\Migrate->bootstrap()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\Migrate.php(66): Migrations\Command\Migrate->parentExecute()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Migrate->execute()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(149): Symfony\Component\Console\Application->doRun()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(169): Cake\Console\Shell->runCommand()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#17 D:\Insuarance system php day 1\Day_3_assignment\bin\cake.php(12): Cake\Console\CommandRunner->run()
+#18 {main}
+
+
+Caused by: [PDOException] SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php on line 79
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(79): PDO->__construct()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(116): Phinx\Db\Adapter\PdoAdapter->createPdoConnection()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(148): Phinx\Db\Adapter\MysqlAdapter->connect()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\AdapterWrapper.php(496): Phinx\Db\Adapter\PdoAdapter->getConnection()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\CakeAdapter.php(56): Phinx\Db\Adapter\AdapterWrapper->getConnection()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(78): Migrations\CakeAdapter->__construct()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(63): Migrations\Command\Migrate->bootstrap()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Command\Migrate.php(66): Migrations\Command\Migrate->parentExecute()
+#9 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Command\Command.php(255): Migrations\Command\Migrate->execute()
+#10 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(1021): Symfony\Component\Console\Command\Command->run()
+#11 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(275): Symfony\Component\Console\Application->doRunCommand()
+#12 D:\Insuarance system php day 1\Day_3_assignment\vendor\symfony\console\Application.php(149): Symfony\Component\Console\Application->doRun()
+#13 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(108): Symfony\Component\Console\Application->run()
+#14 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\Shell.php(531): Migrations\Shell\MigrationsShell->main()
+#15 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(169): Cake\Console\Shell->runCommand()
+#16 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(385): Migrations\Shell\MigrationsShell->runCommand()
+#17 D:\Insuarance system php day 1\Day_3_assignment\vendor\cakephp\cakephp\src\Console\CommandRunner.php(162): Cake\Console\CommandRunner->runShell()
+#18 D:\Insuarance system php day 1\Day_3_assignment\bin\cake.php(12): Cake\Console\CommandRunner->run()
+#19 {main}
+
+
+2026-02-02 05:42:43 Warning: Warning (2): require_once(D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table/../../../tests/bootstrap.php): Failed to open stream: No such file or directory in [D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+require_once - ROOT\tests\TestCase\Model\Table\RegistrationsTableTest.php, line 17
+App\Test\TestCase\Model\Table\RegistrationsTableTest::setUp() - ROOT\tests\TestCase\Model\Table\RegistrationsTableTest.php, line 17
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1125
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 722
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 884
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 667
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 142
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 95
+include - ROOT\vendor\phpunit\phpunit\phpunit, line 61
+[main] - ROOT\vendor\bin\phpunit, line 122
+
+
+
+2026-02-02 05:42:43 Warning: Warning (2): require_once(D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table/../../../tests/bootstrap.php): Failed to open stream: No such file or directory in [D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+require_once - ROOT\tests\TestCase\Model\Table\RegistrationsTableTest.php, line 17
+App\Test\TestCase\Model\Table\RegistrationsTableTest::setUp() - ROOT\tests\TestCase\Model\Table\RegistrationsTableTest.php, line 17
+PHPUnit\Framework\TestCase::runBare() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 1125
+PHPUnit\Framework\TestResult::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestResult.php, line 722
+PHPUnit\Framework\TestCase::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestCase.php, line 884
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\Framework\TestSuite::run() - ROOT\vendor\phpunit\phpunit\src\Framework\TestSuite.php, line 677
+PHPUnit\TextUI\TestRunner::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\TestRunner.php, line 667
+PHPUnit\TextUI\Command::run() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 142
+PHPUnit\TextUI\Command::main() - ROOT\vendor\phpunit\phpunit\src\TextUI\Command.php, line 95
+include - ROOT\vendor\phpunit\phpunit\phpunit, line 61
+[main] - ROOT\vendor\bin\phpunit, line 122
+
+
+
+2026-02-02 06:20:36 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected variable "$testConn", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected variable "$testConn", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 15
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:20:44 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected variable "$testConn", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected variable "$testConn", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 16
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:20:55 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected token "public" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected token "public" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 74
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:22:16 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected variable "$sessions", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected variable "$sessions", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 94
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:22:24 Error: [PHPUnit\TextUI\RuntimeException] Unclosed '{' on line 9 in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] Unclosed '{' on line 9 in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 107
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:22:56 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected fully qualified name "\Cake\ORM\TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected fully qualified name "\Cake\ORM\TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 16
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:23:03 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 16
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:23:18 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 17
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:23:31 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 17
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:23:57 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected identifier "TableRegistry", expecting ";" or "{" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 17
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:24:53 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected identifier "TableRegistry", expecting "function" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected identifier "TableRegistry", expecting "function" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 74
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
+2026-02-02 06:26:26 Error: [PHPUnit\TextUI\RuntimeException] syntax error, unexpected token "public" in D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php on line 97
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#2 {main}
+
+
+Caused by: [ParseError] syntax error, unexpected token "public" in D:\Insuarance system php day 1\Day_3_assignment\tests\TestCase\Model\Table\RegistrationsTableTest.php on line 16
+Stack Trace:
+#0 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Util\FileLoader.php(49): PHPUnit\Util\FileLoader::load()
+#1 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(402): PHPUnit\Util\FileLoader::checkAndLoad()
+#2 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\Framework\TestSuite.php(530): PHPUnit\Framework\TestSuite->addTestFile()
+#3 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\TestSuiteMapper.php(67): PHPUnit\Framework\TestSuite->addTestFiles()
+#4 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(387): PHPUnit\TextUI\TestSuiteMapper->map()
+#5 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(110): PHPUnit\TextUI\Command->handleArguments()
+#6 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\src\TextUI\Command.php(95): PHPUnit\TextUI\Command->run()
+#7 D:\Insuarance system php day 1\Day_3_assignment\vendor\phpunit\phpunit\phpunit(61): PHPUnit\TextUI\Command::main()
+#8 D:\Insuarance system php day 1\Day_3_assignment\vendor\bin\phpunit(122): include('...')
+#9 {main}
+
+
