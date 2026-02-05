@@ -1,0 +1,23 @@
+@import '~bootstrap/scss/bootstrap';
+
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.stat-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.table-responsive {
+  margin-top: 2rem;
+}
+
+.chart-container {
+  margin-top: 2rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+}
